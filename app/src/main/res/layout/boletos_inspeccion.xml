@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="MANIFIESTO DE BOLETOS"
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight=".25"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Núm. Doc."
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".20"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="Origen"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".20"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Destino"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Carga"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <!--<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Insp."
+            android:textSize="12dp"
+            android:textStyle="bold" />-->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="#7e1710" />
+
+
+    <ListView
+        android:id="@+id/listView_inspecciones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+
+

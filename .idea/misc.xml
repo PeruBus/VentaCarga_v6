@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/boletero_venta_carga.xml" value="0.3546875" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/carga__enco_activity.xml" value="0.3546875" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/embarque_codqr.xml" value="0.3802083333333333" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/fragment_carga_encomie.xml" value="0.375" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/login.xml" value="0.38697916666666665" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/selec_agen.xml" value="0.38697916666666665" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco.xml" value="0.371875" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco2.xml" value="0.33" />
+        <entry key="..\:/EMPRESARIAL/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/menu/activity_app_side_bar_drawer.xml" value="0.3546875" />
+        <entry key="..\:/FUENTES/android/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco.xml" value="0.16979166666666667" />
+        <entry key="..\:/FUENTES/android/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco2.xml" value="0.33" />
+        <entry key="..\:/FUENTES/android/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_extra.xml" value="0.18795289855072464" />
+        <entry key="..\:/FUENTES/android/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/menu/activity_app_side_bar_drawer.xml" value="0.278125" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/activity_app_side_bar.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/activity_busca_tcdocu_tota.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/activity_camaratest.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/activity_debug.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/activity_venta_carga_agencia.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/app_bar_app_side_bar.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/asientos.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/asignar_asiento.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/boletero_venta_carga.xml" value="0.18" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/boletero_venta_viaje.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/boleto_dialog.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/boletos_inspeccion.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/buscar_boleto.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/buscar_boleto_controlador.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/carga__enco_activity.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/carga_dialog.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/content_app_side_bar.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/content_selec_agen.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/embarque_busqueda_bus.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/embarque_codqr.xml" value="0.10520833333333333" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/selec_agen.xml" value="0.2658514492753623" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco.xml" value="0.25" />
+        <entry key="..\:/FUENTES/android/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco2.xml" value="0.33" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/drawable/ic_bus.xml" value="0.1625" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/activity_venta_carga_agencia.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/carga__enco_activity.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/login.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/main_fragment.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/selec_agen.xml" value="0.1" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/seleccion_modulo.xml" value="0.1" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_boletos.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco.xml" value="0.3692708333333333" />
+        <entry key="..\:/Users/Aplicaciones07/Documents/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco2.xml" value="0.25" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/carga__enco_activity.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/embarque_codqr.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/login.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/preliquidacion_agen_viaje.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco.xml" value="0.371875" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_enco2.xml" value="0.25" />
+        <entry key="..\:/Users/Aplicaciones07/Pictures/carga 5 V2.2/carga 4/carga 2 Aplicativo Soyuz/Aplicativo Soyuz_carga/Aplicativo Soyuz/app/src/main/res/layout/venta_carga_extra.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

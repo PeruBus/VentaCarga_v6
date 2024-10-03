@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:scrollbars="vertical"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_weight=".20"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".15"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".15"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".20"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".25"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".25"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="10dp"/>
+
+</LinearLayout>

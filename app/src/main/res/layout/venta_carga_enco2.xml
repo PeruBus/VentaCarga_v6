@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/TT_NU_DOCU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="VENTA DE CARGA"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="COMPROBANTE DE REFERENCIA"
+            android:textSize="16dp" />
+
+        <ToggleButton
+            android:id="@+id/BTN_DR"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textColor="#fff"
+            android:textOff="ACTIVADO"
+            android:textOn="APAGADO" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/RA_CA_SERI"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/RA_DETA_SERI"
+                    android:layout_width="136dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="     SERIE:"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/RA_BTN_BUSC"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="📲" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/RA_CA_CORR"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="CORRELATIVO:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_RUC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="R.U.C:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_RZSC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="RAZON SOCIAL:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_DOCU"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="DOCUMENTO:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_CLNT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="CLIENTE:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RD_CO_EMPR"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="EMPRESA:"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/RD_CA_TPDC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="TIPO DOCUMENTO:"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/RD_CA_DOCU"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/RA_DETA_DOCU"
+                    android:layout_width="136dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="   DOCUMENTO:"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/RA_BTN_DOCU"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="📲" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/RD_CA_CEPS"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="DOCUMENTO:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RD_CA_CLNT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="CLIENTE:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RD_CA_RUC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="R.U.C:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RD_CA_RZSC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="RAZON SOCIAL:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_TPPR"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="TIPO PRODUCTO:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_TPPR2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_TARI"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="TARIFA:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_CANT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="CANTIDAD:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_BIMP"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_CA_BIMP2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/RA_DE_SERI"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:maxLength="4"
+                android:textAlignment="center"
+                android:inputType="textCapCharacters"
+                android:text="" />
+            <EditText
+                android:id="@+id/RA_DE_CORR"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="8"
+                android:textAlignment="center"
+                android:imeOptions="actionSearch"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/RA_DE_RUC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RA_DE_RZSC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/RA_DE_DOCU"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:imeOptions="actionSearch"
+                android:maxLength="11"
+                android:textAlignment="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/RA_DE_CLNT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/RD_DE_EMPR"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner
+                android:id="@+id/RD_DE_TPDC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/RD_DE_DOCU"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="8"
+                android:imeOptions="actionSearch"
+                android:textAlignment="center"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/RD_DE_CEPS"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:maxLength="15"
+                android:imeOptions="actionSearch"
+                android:text=""
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/RD_DE_CLNT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/RD_DE_RUC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="11"
+                android:imeOptions="actionSearch"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/RD_DE_RZSC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:textAlignment="center"
+                android:text="" />
+
+            <Spinner
+                android:id="@+id/RA_DE_TPPR"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/RA_DE_TPPR2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:textAlignment="center"
+                android:maxLength="15"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/RA_DE_TARI"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:maxLength="4"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/RA_DE_CANT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:maxLength="2"
+                android:text="" />
+            <Button
+                android:id="@+id/RA_DE_BIMP"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:text="IMPRIMIR1" />
+            <Button
+                android:id="@+id/RA_DE_BIMP2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:text="IMPRIMIR2" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

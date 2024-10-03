@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="EMBARQUE"
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/TituloEmbarque"/>
+
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn_leerQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leer QR"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout> -->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_buscarItin_1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MANUAL"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="8"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_Camara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CAMARA"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="8"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_leerQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Leer QR"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Empresa"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Serie"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Correlativo"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:text="Tipo Documento"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vehiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Emisión"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="#7e1710" />
+
+    <ListView
+        android:id="@+id/listView_boletosLeidos"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="33dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCant"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBus"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bus"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_buscarItin"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Buscar Itinerario"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</LinearLayout>

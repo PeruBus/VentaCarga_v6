@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="MANIFIESTO DE PASAJEROS"
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/id_Manifiesto_titulo"/>
+
+    <!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:inputType="number"/>
+
+            <Button
+                android:id="@+id/btn_leerQR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leer QR"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout> -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+     <!--   <Button
+            android:id="@+id/btn_buscarItin_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buscar Boleto"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:textAlignment="center"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn_leerQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Leer QR"
+            android:textColor="@color/colorWhite"/> -->
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="O"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="D"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="DNI"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="CLIENTE"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="DOCU. VIAJE"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="#7e1710" />
+
+    <ListView
+        android:id="@+id/listView_Manifiesto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>

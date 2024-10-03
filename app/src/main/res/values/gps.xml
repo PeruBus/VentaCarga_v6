@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TEST -->
+    <!--<integer name="UPDATE_INTERVAL_IN_MILLISECONDS">10000</integer>
+    <integer name="MINIMUN_DISTANCE">1</integer>
+    <integer name="MINIMUN_PROCESS_DISTANCE">10</integer>-->
+
+    <!-- PRODUCCIÓN -->
+    <integer name="UPDATE_INTERVAL_IN_MILLISECONDS">60000</integer>
+    <integer name="MINIMUN_DISTANCE">15</integer>
+    <integer name="MINIMUN_PROCESS_DISTANCE">10000</integer>
+</resources>

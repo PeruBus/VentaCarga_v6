@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/baseline_list_alt_black_18dp"
+            android:title="Lista de Itinerarios" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>-->
+    <group>
+
+        <item android:title="Menu">
+            <menu>
+                <item
+                    android:id="@+id/nav_tarifario"
+                    android:icon="@drawable/ic_tarifas"
+                    android:title="Tarifario"/>
+                <item
+                    android:id="@+id/nav_list"
+                    android:icon="@drawable/ic_list"
+                    android:title="Lista de Itinerarios"/>
+                <item
+                    android:id="@+id/sel_caja"
+                    android:icon="@drawable/ic_list"
+                    android:title="Seleccionar Caja"/>
+                <item
+                    android:id="@+id/sel_agen"
+                    android:icon="@drawable/ic_list"
+                    android:title="Seleccionar Agencia"/>
+                <item
+                    android:id="@+id/nav_servicio_especial"
+                    android:icon="@drawable/ic_list"
+                    android:title="Venta Serv.Express"/>
+                <item
+                    android:id="@+id/nav_carga"
+                    android:icon="@drawable/ic_box"
+                    android:title="Venta de Carga"/>
+                <item
+                    android:id="@+id/nav_camara"
+                    android:icon="@drawable/ic_box"
+                    android:title="camara"/>
+                <item
+                    android:id="@+id/vent_carg_enco"
+                    android:icon="@drawable/ic_box"
+                    android:title="Venta de Carga."/>
+                <item
+                    android:id="@+id/vent_carg_enco2"
+                    android:icon="@drawable/ic_box"
+                    android:title="Venta de Carga."/>
+
+                <item
+                    android:id="@+id/nav_repoCantinsp"
+                    android:icon="@drawable/ic_document"
+                    android:title="Reporte Inspecciones"/>
+
+                <item
+                    android:id="@+id/nav_enco_carg"
+                    android:icon="@drawable/ic_box"
+                    android:title="Venta de Carga/Encomienda"/>
+
+                <item
+                    android:id="@+id/nav_Manifiesto"
+                    android:icon="@drawable/ic_document"
+                    android:title="Manifiesto Pasajeros"/>
+
+                <item
+                    android:id="@+id/nav_MataBoleto"
+                    android:icon="@drawable/ic_document"
+                    android:title="Asignación de Boletos"/>
+
+                <item
+                    android:id="@+id/nav_liquidacion"
+                    android:icon="@drawable/ic_document"
+                    android:title="Pre-liquidación"/>
+
+                <item
+                    android:id="@+id/nav_trasbordo"
+                    android:icon="@drawable/ic_bus"
+                    android:title="Transbordo"/>
+                    <!--android:icon="@drawable/ic_box"-->
+                <item
+                    android:id="@+id/nav_asignarAsientos"
+                    android:icon="@drawable/ic_seatnumber"
+                    android:title="Asignar Asientos"/>
+                <item
+                    android:id="@+id/nav_ReporteControlador"
+                    android:icon="@drawable/ic_document"
+                    android:title="Reporte Asignación"/>
+                <item
+                    android:id="@+id/nav_close"
+                    android:icon="@drawable/ic_close"
+                    android:title="Cerrar sesión" />
+                <!--<item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send" />-->
+            </menu>
+        </item>
+    </group>
+
+</menu>

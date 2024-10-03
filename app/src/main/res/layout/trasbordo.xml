@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="TRANSBORDO DE CLIENTE"
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CÓDIGO EMPRESA:"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="RUMBO:"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="SECUENCIA:"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="FECHA PROGRAMACIÓN:"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_codEmpresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/textView_rumbo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/textView_secuencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/textView_fechaProgramacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:enabled="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_leerQR"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Leer código QR"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/btn_trasbordo"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Realizar Trasbordo"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Núm. Documento"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Tipo Documento"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Núm. Asiento"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="#7e1710" />
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="BA01-0000000012"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="BLT"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Seleccionar Asiento"
+            android:textSize="12dp"/>
+        &lt;!&ndash;<Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight=".33"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Selecionar asiento"
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"/>&ndash;&gt;
+
+    </LinearLayout>-->
+
+    <ListView
+        android:id="@+id/listView_trasbordo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

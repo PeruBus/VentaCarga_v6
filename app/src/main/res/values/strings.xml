@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PeruBus Carga</string>
+    <string name="ws_ruta">http://181.224.255.234/svcPrueba/</string>
+<!--    <string name="ws_ruta">http://181.224.255.234/svcAPK/</string>-->
+    <string name="ws_user">GrupoSoyuz</string>
+    <string name="ws_ticket">0</string>
+
+    <string name="ws_password">G$0yUz2019</string>
+    <string name="usercode">Código de usuario</string>
+    <string name="login">Login</string>
+    <string name="logout">Cerrar</string>
+    <string name="title_activity_app_side_bar"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="launch_activity">Regresar a la aplicación</string>
+    <string name="location_unknown">Ubicación desconocida</string>
+
+    <string name="permission_rationale">Se requiere el permiso para GPS para desbloquear asientos</string>
+    <string name="permission_denied_explanation">No se autorizó el uso de GPS, la aplicación no funcionará correctamente</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Quitar GPS</string>
+
+    <string name="location_updated">Distancia: %1$s</string>
+    <string name="titulo_notificacion">Distancia recorrida</string>
+    <string name="impresi_n_test">Impresión test</string>
+    <string name="lectura_qr_test">Lectura QR test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_camaratest">camaratest</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_selec_agen">SelecAgen</string>
+</resources>

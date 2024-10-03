@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DebugActivity">
+
+    <Button
+        android:id="@+id/btn_debug_impresion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/impresi_n_test"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btn_debug_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lectura_qr_test"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

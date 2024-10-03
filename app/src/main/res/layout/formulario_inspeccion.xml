@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@color/colorBackground">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/imageView_state"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/no_state" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="FORMULARIO DE INSPECCIÓN"
+            android:fontFamily="serif"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="ORIGEN:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="DESTINO:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="TARIFA:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="DNI:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="ASIENTO:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/label_carga"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="CARGA:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:text="DESCRIPCIÓN:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="ASUNTO:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="INSPECCIÓN CON BOLETO:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/label_tipoProducto"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="TIPO PRODUCTO:"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/label_cantidad"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="CANTIDAD:"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_origen"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <TextView
+                        android:id="@+id/textView_destino"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <TextView
+                        android:id="@+id/textView_tarifa"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <TextView
+                        android:id="@+id/textView_dni"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText_asiento"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/textView_carga"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText_descripcion"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"/>
+
+                    <Spinner
+                        android:id="@+id/spinner_asunto"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:id="@+id/textView_inspeccionBoleto"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <TextView
+                        android:id="@+id/textView_tipoProducto"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:enabled="false" />
+
+                    <TextView
+                        android:id="@+id/textView_cantidad"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false" />
+
+                    <Button
+                        android:id="@+id/button_guardarInspeccion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Guardar"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

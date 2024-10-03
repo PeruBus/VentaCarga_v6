@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-base:16.0.1@aar">
+  <library name="Gradle: com.google.android.gms:play-services-base:16.0.1@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9847bf32e275fc703cc3e8631c37dfd4/transformed/play-services-base-16.0.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9847bf32e275fc703cc3e8631c37dfd4/transformed/play-services-base-16.0.1/AndroidManifest.xml" />

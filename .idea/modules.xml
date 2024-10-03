@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aplicativo_Soyuz_carga.iml" filepath="$PROJECT_DIR$/.idea/modules/Aplicativo_Soyuz_carga.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Aplicativo_Soyuz_carga.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VentaCarga_v6.iml" filepath="$PROJECT_DIR$/.idea/modules/VentaCarga_v6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VentaCarga_v6.app.unitTest.iml" />
     </modules>
   </component>
 </project>

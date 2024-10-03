@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: C">
+  <library name="Gradle: C" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/app/libs/NeptuneLiteAPI_V3.05.01_20190528.jar!/" />
     </CLASSES>
